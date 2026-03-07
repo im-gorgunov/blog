@@ -1,116 +1,101 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Иван Горбунов
+  given: Иван
+  family: Горбунов
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+
+postnominals: []
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "💻"
+
+role: Student, Computer Science
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Иван Горбунов — студент Российского университета дружбы народов (РУДН),
+  обучающийся по направлению «Компьютерные науки». Его интересы связаны
+  с программированием, разработкой программного обеспечения и современными
+  технологиями искусственного интеллекта. Иван активно изучает алгоритмы,
+  структуры данных и современные инструменты разработки.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: RUDN University
+    url: https://rudn.ru/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:ivan.gorbunov@example.com
+    label: E-mail
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/
+  - icon: brands/telegram
+    url: https://t.me/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://linkedin.com/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Программирование
+  - Алгоритмы и структуры данных
+  - Искусственный интеллект
+  - Разработка программного обеспечения
+  - Машинное обучение
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Bachelor, Computer Science
+    institution: RUDN University
+    start: 2025-09-01
+    end: 2029-05-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Изучение фундаментальных дисциплин компьютерных наук,
+      включая программирование, алгоритмы, структуры данных,
+      операционные системы и основы искусственного интеллекта.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Student
+    org: RUDN University
+    start: 2025-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Осваиваю современные технологии программирования,
+      работаю с алгоритмами и структурами данных,
+      изучаю методы разработки программного обеспечения
+      и основы искусственного интеллекта.
 
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
+      - label: C++
+        level: 3
+      - label: Git
+        level: 3
+
+  - name: Computer Science
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: Algorithms
+        level: 3
+      - label: Data Structures
+        level: 3
+      - label: Software Development
+        level: 3
 
 languages:
-  - name: English
+  - name: Russian
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
-    label: Fluent
+    label: Upper-Intermediate
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Участник университетских учебных проектов
+    awarder: RUDN University
+    date: "2026-01-01"
+    summary: Участие в учебных проектах по программированию и разработке программных систем.
+    icon: hero/academic-cap
